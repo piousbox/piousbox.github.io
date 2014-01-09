@@ -1,0 +1,70 @@
+
+= Projects =
+ - [Wasya Co] - November 2013
+   The project goal is to automate deployment of various Unix-based operating systems, and install and configure services on those systems.
+   * Translated Chef functionality to equivalent Puppet functionality. Performed test-driven development of Puppet modules and manifests.
+   * Setup DNS and DHCP servers on virtual networks.
+   * Used TFTP, NFS, PXE, iPXE and Grub for network-based installs.
+
+ - [International Technological University] - August 2013
+   ITU is a young, modern higher education institution in San Jose, CA. It is the only university that offers PhD in this city. The university has a custom-built course management system (ems.itu.edu) that is in need of continuous development and improvement. http://itu.edu
+   * Migrated the codebase from ruby 1.8.7 to ruby 1.9.3, resolved gems conflicts and upgraded the gemset.
+   * Wrote extensive unit, functional, and regression tests.
+   * Enabled code covegate on the project using simplecov.
+   * Deployed infrastructure (chef, rackspace) for alpha-testing new releases without disrupting the production/live application.
+   * Along with a team of designers, prototyped the next version of the responsive user interface for the application.
+   * Made significant contributions to the Rails backend of the application.
+
+ - [Goji] - June 2013
+   Goji is an application that allows a door to be locked and unlocked via phone. http://gojiaccess.com
+   * Took over from an outsourced team.
+   * Configured the application and deployed it to the cloud.
+   * Wrote the documentation for future deployments.
+
+ - [TechVOX] - March 2013
+   The SignVOX application is a print shop management system: it allows for easier management of printing hardware, customers, print jobs, accounting, and everything else that a print shop needs. The codebase is in Ruby 1.8.7 on Rails 2. http://signvox.com
+   * Wrote an adapter to allow API integration of the application with Xero.com, an Australian accounting solution similar to Quickbooks. The Xero adapter securely communicates with the Xero server, parses and generates XML as needed, and allows both reading and writing data objects via the API.
+
+ - [Visa] - October 2012
+   * Performed maintenance tasks, updates and bug fixes on mission-critical web applications.
+   * Generated executive reports from MySQL data.
+
+ - [Google/Youtube] - August 2012
+   The project, Chrome Scheduler, creates a playlist of olympic games to watch on a laptop or tablet, based on athletes, kind of sports, and event types. http://www.forbes.com/sites/bruceupbin/2012/07/27/the-london-2012-olympics-app-and-tools-guide/
+   * Wrote a backend for the Chrome extension.
+   * Deployed the application to Heroku.
+
+ - [Target] - Jan 2012
+   http://weeklyad.target.com
+   A part of the Target shopping network.
+   * Performed maintenance and updates to a mission-critical web application for Target.
+
+   https://s3.amazonaws.com/ish-archive/2012/target-app.png
+   "Give with Target" is a public-good project by Target, through which it donated a million dollars to Canadian charities.
+   * Worked closely with project managers, designers, and stakeholders to fulfill the business requirements in a timely manner.
+
+ - [Audi] - Oct 2011
+   Audi has a number of web resources for customers in the U.S. One of the applications did lead generation, allowing potential buyers to be linked to Audi sales representatives. http://www.audiusa.com/models 
+   Another application provided a preview of customizations that are possible before purchasing a new car. https://my.audiusa.com/
+   * Worked in a team of a dozen engineers, designers and managers to modernize the website's look and feel.
+   * The application was written in Ruby 1.8.7, using Rails 2 and Backbone. It was test-driven, covered and benchmarked.
+   
+ - [Old Navy] - Sept 2011
+   The product was a promotional Facebook application, a weekly raffle/contest through which Old Navy gave out prizes and gift cards.
+   * Coded the Ruby on Rails backend for the Facebook app. 
+   * Contributed to the domain design and the business logic of the app.
+
+ - [Cruisewise] - June 2011
+   http://cruisewise.com was a web application that offered discounted cruise packages, and plenty of ways to customize your cruise trip. (As of 2014, the project has been merged into http://cruisecritic.com)
+   * There are several existing CMSs that contain data (tables with metadata, descriptions, and photos) relevant to cruises. I wrote a web crawler using Rails, Selenium, Capybara, and Nokogiri that crawls Java-based CMSs and puts the data into MySQL and the filesystem, for further processing. The content that my crawler extracted was used for augmenting all other content of Cruisewise.
+
+
+
+
+
+
+
+
+
+
+

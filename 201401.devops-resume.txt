@@ -1,0 +1,32 @@
+
+= Projects =
+ - [confidential] - November 2013
+   Translated Chef functionality to equivalent Puppet functionality. Performed test-driven development of Puppet modules and manifests.
+   Setup DNS and DHCP servers on virtual networks.
+   Used TFTP, NFS, PXE, iPXE (pre-execution environments used for booting) for network-based installs of Solaris.
+
+ - http://itu.edu - August 2013
+   itu.edu is a young, modern higher education institution in San Jose, CA. It is the only university that offers PhD in this city. The university has a custom-built course management system (ems.itu.edu) that is in need of continuous development and improvement.
+   deployed infrastructure (chef, rackspace) for alpha-testing new releases without disrupting the production/live application
+
+ - gojiaccess.com - June 2013
+   The application that I worked on is a server that allows communication between the phone, custom hardware (a robotized door lock), and an admin panel
+   - took over from an outsourced team 
+   - deployed the application to the cloud.
+
+ - youtube stuff - July 2012
+   Deployed an application to Heroku
+   
+ - a tutorial on deploying a small private cloud on AWS using Chef
+
+
+
+
+
+
+
+
+
+
+
+
