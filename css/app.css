@@ -2,3 +2,7 @@
 body {
   background: url('../img/bg/light-gray.jpg');
 }
+
+.row ul li ul {
+    margin-bottom: 1.8em;
+}
